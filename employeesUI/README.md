@@ -1,3 +1,25 @@
+to compile and run this project the commands were
+    npm install bootstrap jquery --save
+
+    followed by adding to angular.json file
+    ...
+ 
+"styles": [
+  "src/styles.css",
+  "node_modules/bootstrap/dist/css/bootstrap.min.css"
+],
+"scripts": [
+  
+  
+  "node_modules/jquery/dist/jquery.min.js",
+  "node_modules/bootstrap/dist/js/bootstrap.min.js"
+]
+ 
+...
+
+
+
+
 # EmployeesUI
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.2.3.
